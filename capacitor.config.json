@@ -1,0 +1,9 @@
+{
+  "appId": "co.obra.controlconcreto",
+  "appName": "Control Concreto",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#002F5C"
+  }
+}
