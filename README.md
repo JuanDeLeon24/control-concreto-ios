@@ -4,6 +4,15 @@ App de iPhone del control de llegadas de concreto. Es la versión web (carpeta `
 como app nativa con Capacitor. Funciona sin internet; datos y fotos quedan dentro del iPhone.
 La carpeta `ios/` no se sube: Codemagic la crea en cada compilación.
 
+Tiene las mismas funciones que la versión 1.4 de Android: catálogo de frentes, tramos y localizaciones
+(escrito en la app o cargado desde Excel/CSV), configuración de la app y del informe, campos adicionales
+por mixer (aditivos, fibras, dosis…), código del mixer y remisión por separado, "Finalizar y resumen" con
+estadísticas, PDF y Excel, jornadas completas con fotos entre teléfonos (Android ↔ iPhone), copia de
+seguridad compatible y acceso de administrador (mismo usuario y contraseña que en Android).
+
+Nota: la configuración y el catálogo se hacen en cada teléfono. Para que los datos adicionales pasen entre
+teléfonos, usa los mismos campos (los "sugeridos" tienen el mismo identificador en Android y en iPhone).
+
 ## Requisitos (una sola vez)
 1. Cuenta de **Apple Developer Program** (pago anual), de la empresa o personal.
 2. developer.apple.com > Certificates, IDs & Profiles > Identifiers: registrar el Bundle ID
